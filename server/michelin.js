@@ -9,7 +9,7 @@ const cheerio = require('cheerio');
  * @return {Object} restaurant
  */
  // FOR A RESTAURANT: 
-const parse = data => {
+const parseRestaurant = data => {
   const $ = cheerio.load(data);
   const name = $('.section-main h2.restaurant-details__heading--title').text();
   const address= $('.restaurant-details__heading > ul > li:nth-child(1)').text();
@@ -17,7 +17,7 @@ const parse = data => {
   const city=address.split(',')[1];
   const postal_code=address.split(',')[2];
   const state= address.split(',')[3];
-  const experience = $('#experience-section > ul > li:nth-child(2)').text().split('\n')[2];
+  const experience = $('#experience-section > ul > li:nth-child(2)').text().split('\n')[2].trim();
   const tel= $('.section-main span.flex-fill').text().substring(0,17);
   // const tel= $('.section-main .collapse__block-item .d-flex span.flex-fill').text();
 
