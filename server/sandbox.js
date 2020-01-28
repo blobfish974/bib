@@ -13,7 +13,7 @@ async function sandboxBibList (searchLink = 'https://guide.michelin.com/fr/fr/re
 
     // console.log(restaurant);
     // console.log('done');
-    
+    // console.log("lenght="+restaurant.length);
     return restaurant;
     // process.exit(0);
   } catch (e) {

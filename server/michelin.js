@@ -2,18 +2,6 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 
 
-function removeDuplicates(array) {
-  let unique = {};
-  array.forEach(function(i) {
-    if(!unique[i]) {
-      unique[i] = true;
-    }
-  });
-  return Object.keys(unique);
-}
-
-
-
 
 /**
  * Parse webpage restaurant
@@ -43,21 +31,23 @@ const parse = data => {
  // FOR ALL RESTAURANTS:
 const parseBibList = data => {
   const $ = cheerio.load(data);
-  const web_links=$('.card__menu a').map(function(i, el) {
+  
+  // var web_links=$('body > main > section.section-main.search-results.search-listing-result > div > div > div.row.restaurant__list-row.js-toggle-result.js-geolocation > div:nth-child(1) > div > a').attr('href');
+
+  var web_links=$('.card__menu a').map(function(i, el) {
         return $(this).attr('href');
       }).toArray();
 
-  var web_link=removeDuplicates(web_links); //we need to remove duplicates
-  web_link.splice(0, 1);
-  var length= web_link.length;
-  for (let i = 1; i < length; i++) { //to remove useless url
-    web_link.splice(i, 1);
-}
-var length= web_link.length;
-for (let i = 0; i < length; i++) { //to remove useless url
-    web_link[i]="https://guide.michelin.com"+web_link[i];
-}
-  return {web_link};
+  var length= web_links.length;
+  for (let i = 0; i < length; i++) { //to remove useless url
+    web_links.splice(i, 2);
+  }
+  length= web_links.length;
+  for (let i = 0; i < length; i++) { //to remove useless url
+      web_links[i]="https://guide.michelin.com"+web_links[i];
+  }
+
+  return {web_links};
 };
 
 // TO FIND THE NUMBER OF PAGE IN THE BIB LIST: 

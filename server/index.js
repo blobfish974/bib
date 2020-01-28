@@ -8,12 +8,13 @@ const fs = require('fs'); //to export data
 const readline = require('readline'); //to readfiles / import datas
 
 
-async function fetchPageBibList(url){
-const res=await sandbox_package.sandboxPageBibList(); 
+async function fetchBibList(url){
+const res=await sandbox_package.sandboxBibList(url); 
+console.log(res);
+console.log(res.web_links.length);
 return res;
 }
-
-
+// fetchBibList('https://guide.michelin.com/fr/fr/restaurants/bib-gourmand/page/2');
 
 
 async function bibUrlList(){ //fetch all the url from restaurant wich are bib and store them in a json file
@@ -31,9 +32,10 @@ async function bibUrlList(){ //fetch all the url from restaurant wich are bib an
 		// console.log(url);
 		restaurantURL= await sandbox_package.sandboxBibList(url);
 		// bibURLList.push(restaurantURL.web_link);
-		bibURLList=bibURLList.concat(restaurantURL.web_link);
+		bibURLList=bibURLList.concat(restaurantURL.web_links);
+		console.log(restaurantURL.web_links.length);
 	}
-	// console.log(bibURLList);
+	console.log(bibURLList.length);
 
 
 	// export in JSON
@@ -43,6 +45,9 @@ async function bibUrlList(){ //fetch all the url from restaurant wich are bib an
 	});
 
 
+
+
+	// to export in a txt file for example:
 	// fs.writeFile("./files/BibRestaurantsURL.txt", bibURLList, function(err) {
  //    if(err) {
  //        return console.log(err);
@@ -64,8 +69,6 @@ async function bibUrlList(){ //fetch all the url from restaurant wich are bib an
 	// console.log(bibList);
 	
 }
-
-// fetchPageBibList();
 bibUrlList();
 
 
