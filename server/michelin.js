@@ -14,9 +14,9 @@ const parseRestaurant = data => {
   const name = $('.section-main h2.restaurant-details__heading--title').text();
   const address= $('.restaurant-details__heading > ul > li:nth-child(1)').text();
   const street=address.split(',')[0];
-  const city=address.split(',')[1];
-  const postal_code=address.split(',')[2];
-  const state= address.split(',')[3];
+  const city=address.split(',')[1].trim();
+  const postal_code=address.split(',')[2].trim();
+  // const state= address.split(',')[3];
   const experience = $('#experience-section > ul > li:nth-child(2)').text().split('\n')[2].trim();
   const tel= $('.section-main span.flex-fill').text().substring(0,17);
   // const tel= $('.section-main .collapse__block-item .d-flex span.flex-fill').text();
@@ -24,7 +24,7 @@ const parseRestaurant = data => {
   const web_link=$('.section-main a').map(function(i, el) {
         return $(this).attr('href');
       }).toArray()[5];
-  return {name, street, city, postal_code, state, experience, tel,web_link};
+  return {name, street, city, postal_code, experience, tel,web_link};
 };
 
 
