@@ -67,10 +67,10 @@ const parseRestaurant= data => {
  */
 
 
- module.exports.scrapeMaitresRestaurateursList = async url => {
+ module.exports.scrapeMaitresRestaurateursList = async page_number => { //gives url of restaurant for a result page
 
     // const rep = await axios(url);
-    const rep = await axios.post('https://www.maitresrestaurateurs.fr/annuaire/ajax/loadresult', querystring.stringify({page: 1,request_id: 'f1a0b6f32797100c143ebed4fcb1f023'}));
+    const rep = await axios.post('https://www.maitresrestaurateurs.fr/annuaire/ajax/loadresult', querystring.stringify({page: page_number,request_id: 'f1a0b6f32797100c143ebed4fcb1f023'}));
     // const rep =  axios(url);
     const {data, status} = rep;
     // console.log("data"+data);
@@ -127,8 +127,9 @@ const parseRestaurant= data => {
 //   //   console.error(status);
 //   //   return null;
 // };
-module.exports.scrapeResultsMaitresRestaurateursList = async url => {
-  const response = await axios.post('https://www.maitresrestaurateurs.fr/annuaire/ajax/loadresult', querystring.stringify({page: 1,request_id: 'f1a0b6f32797100c143ebed4fcb1f023'}));
+module.exports.scrapeResultsMaitresRestaurateursList = async page_number => { //gives number of result
+
+  const response = await axios.post('https://www.maitresrestaurateurs.fr/annuaire/ajax/loadresult', querystring.stringify({page: page_number,request_id: 'f1a0b6f32797100c143ebed4fcb1f023'}));
     
   const {data, status} = response;
 

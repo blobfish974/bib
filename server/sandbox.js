@@ -70,12 +70,11 @@ const [,, searchLink] = process.argv;
 
 
 // for the maitres restaurateurs result page
-async function sandboxMaitresRestaurateursList(searchLink = 'https://www.maitresrestaurateurs.fr/annuaire/ajax/loadresult') {
+async function sandboxMaitresRestaurateursList(page_number= 1) {
     
   try {
-    console.log(`🕵️‍♀️  browsing ${searchLink} source`);
-
-    const restaurant = await maitre.scrapeMaitresRestaurateursList(searchLink);
+    console.log(`🕵️‍♀️  browsing ?, page number = ${page_number} source`);
+    const restaurant = await maitre.scrapeMaitresRestaurateursList(page_number);
     
     return restaurant;
     // process.exit(0);
@@ -88,10 +87,9 @@ async function sandboxMaitresRestaurateursList(searchLink = 'https://www.maitres
 
 // for the number of results in maitres restaurateurs
 async function sandboxResultsMaitresRestaurateursList(searchLink = 'https://www.maitresrestaurateurs.fr/annuaire/ajax/loadresult') {
-    
+  
   try {
     console.log(`🕵️‍♀️  browsing ${searchLink} source`);
-
     const restaurant = await maitre.scrapeResultsMaitresRestaurateursList(searchLink);
 
     // console.log(restaurant);
@@ -135,7 +133,7 @@ module.exports.sandboxRestaurant = sandboxRestaurant;
 module.exports.sandboxPageBibList = sandboxPageBibList;
 module.exports.sandboxMaitresRestaurateursList = sandboxMaitresRestaurateursList;
 module.exports.sandboxMaitresRestaurateurs = sandboxMaitresRestaurateurs;
-module.exports.sandboxPageMaitresRestaurateursList = sandboxPageMaitresRestaurateursList;
+module.exports.sandboxResultsMaitresRestaurateursList = sandboxResultsMaitresRestaurateursList;
 
 module.exports.get = () => {
   return [];

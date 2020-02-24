@@ -115,17 +115,30 @@ async function bibList(){ //fetch all the restaurants one by one using the json 
 //  --------- MAITRES RESTAURATEURS ---------
 
 
-async function fetchMaitresRestaurateursURLList(){ 
-// const res=await sandbox_package.sandboxMaitresRestaurateursList(); 
-// console.log(res);
+async function fetchMaitresRestaurateursURLList(){ // fetch and store all url of maitre restaurateurs pages
 
-const results=await sandbox_package.sandboxPageMaitresRestaurateursList(); 
-console.log(results);
+const numberOfResults=await sandbox_package.sandboxResultsMaitresRestaurateursList(); 
+const numberOfPage=Math.ceil(numberOfResults/10); //we use ceil cause because the last page could not be filled entirely (and floor would have give us a the largest integer less than or equal to the division)
+console.log("pages="+numberOfPage);
 
-
-// return res;
+var i,restaurantURL;
+var maitresRestaurateursURLList=[];
+for (i = 1; i < numberOfPage+ 1 ; i++) //1 page was missing...
+{
+	restaurantURL=await sandbox_package.sandboxMaitresRestaurateursList(i); 
+	maitresRestaurateursURLList=maitresRestaurateursURLList.concat(restaurantURL.web_links);
+	// console.log(restaurantURL.web_links.length);
 }
-fetchMaitresRestaurateursURLList();
+console.log(maitresRestaurateursURLList.length);
+
+
+// export in JSON
+fs.writeFile('./files/MaitresRestaurateursRestaurantsURL.json', JSON.stringify(maitresRestaurateursURLList,null,2), (err) => {
+    if (err) throw err;
+    console.log('Data written to file');
+});
+}
+// fetchMaitresRestaurateursURLList();
 
 
 
