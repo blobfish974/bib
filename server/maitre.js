@@ -46,16 +46,27 @@ const parseResults = data => {
 const parseRestaurant= data => {
 
   const $ = cheerio.load(data);
-  const name = $('#module_ep > div.ep-container.container > div > div > div.ep-content-left.col-md-8 > div > div.ep-section.ep-content-infos.row > div.ep-infos-txt > div.infos-nom').text();
-  // const address= $('.restaurant-details__heading > ul > li:nth-child(1)').text();
-  // const street=address.split(',')[0];
-  // const city=address.split(',')[1];
-  // const postal_code=address.split(',')[2];
-  // const state= address.split(',')[3];
-  // const experience = $('#experience-section > ul > li:nth-child(2)').text();
-  console.log("test");
-  return {name};
+  // var name = $('#module_ep > div.ep-container.container > div > div > div.ep-content-left.col-md-8 > div > div.ep-section.ep-content-infos.row > div.ep-infos-txt > div.infos-nom').text();
+  // name=name.trim();
+  const name= $('#module_ep > div.ep-container.container > div > div > div.ep-content-left.col-md-8 > div > div.ep-section.ep-section-parcours.row > div > div > div.section-item-right.text.flex-5 > span:nth-child(1) > strong').text();
+
+  const infos= $('#module_ep > div.ep-container.container > div > div > div.ep-content-left.col-md-8 > div > div.ep-section.ep-section-parcours.row > div > div > div.section-item-right.text.flex-5').text().split('\n');
+  
+  // var street=infos[11].trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  const street=infos[11].trim();
+  const postal_code=infos[14].trim();
+  const city=infos[15].trim();
+
+
+  var tel_mobile= infos[28].trim().replace(/,/g, '');
+  var tel_square= infos[29].trim().replace(/,/g, '');
+
+  // const tel= $('.restaurant-details__heading > ul > li:nth-child(1)').text();
+  return {name,street,city,postal_code,tel_mobile,tel_square};
 };
+
+
+
 
 
 
