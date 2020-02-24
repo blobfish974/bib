@@ -107,31 +107,34 @@ async function bibList(){ //fetch all the restaurants one by one using the json 
 
 	
 }
-bibList();
+// bibList();
+
+
+
+
+//  --------- MAITRES RESTAURATEURS ---------
+
+
+async function fetchMaitresRestaurateursURLList(){ 
+// const res=await sandbox_package.sandboxMaitresRestaurateursList(); 
+// console.log(res);
+
+const results=await sandbox_package.sandboxPageMaitresRestaurateursList(); 
+console.log(results);
+
+
+// return res;
+}
+fetchMaitresRestaurateursURLList();
 
 
 
 
 
-// SOME TESTS:
-
-// function getNumberOfPage(){
-//   const promise1= new Promise((resolve, reject) => {
-//     const r=fetchPageBibList();
-//     return r;
-
-//   })
-//   promise1.then(function(value) {
-//   console.log(value);
-//   // expected output: "foo"
-// });
-//   return n;
-// }
-// const r=fetchPageBibList('r');
-// console.log("TEST"+r);
-// const j=getNumberOfPage();
-// console.log("J="+j);
-
-
-
+async function fetchMaitresRestaurateurs(){ 
+const res=await sandbox_package.sandboxMaitresRestaurateurs(); 
+console.log(res);
+return res;
+}
+// fetchMaitresRestaurateurs();
 
