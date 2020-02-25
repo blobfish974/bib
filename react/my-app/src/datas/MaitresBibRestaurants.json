@@ -1,0 +1,929 @@
+[
+  {
+    "name": "Les Jardins du Léman",
+    "street": "Grande-Rue",
+    "city": "Yvoire",
+    "postal_code": "74140",
+    "experience": "Confortable",
+    "tel": "+33 4 50 72 80 32",
+    "web_link": "http://www.lesjardinsduleman.com"
+  },
+  {
+    "name": "La Chaumière",
+    "street": "2 rue Paul-Lasnier",
+    "city": "Aubigny-sur-Nère",
+    "postal_code": "18700",
+    "experience": "Confortable. Nos établissements de charme.",
+    "tel": "+33 2 48 58 04 01",
+    "web_link": "http://www.hotel-restaurant-la-chaumiere.com"
+  },
+  {
+    "name": "La Chaumière",
+    "street": "96 avenue Emmanuel-Brousse",
+    "city": "Font-Romeu",
+    "postal_code": "66120",
+    "experience": "Confortable",
+    "tel": "+33 4 68 30 04 40",
+    "web_link": "http://www.restaurantlachaumiere.fr"
+  },
+  {
+    "name": "L'Embellie",
+    "street": "le Bourg",
+    "city": "Sainte-Cécile",
+    "postal_code": "71250",
+    "experience": "Confortable",
+    "tel": "+33 3 85 50 81 81",
+    "web_link": "http://www.restaurant-lembellie.com"
+  },
+  {
+    "name": "Auberge du Terroir",
+    "street": "Le Bourg",
+    "city": "Servon",
+    "postal_code": "50170",
+    "experience": "Confortable",
+    "tel": "+33 2 33 60 17 92",
+    "web_link": "https://www.instagram.com/explore/tags/yesmichelinguide/"
+  },
+  {
+    "name": "Auberge de Bardigues",
+    "street": "Le Bourg",
+    "city": "Bardigues",
+    "postal_code": "82340",
+    "experience": "Assez confortable",
+    "tel": "+33 5 63 39 05 58",
+    "web_link": "http://www.aubergedebardigues.com"
+  },
+  {
+    "name": "La Table de Léo",
+    "street": "Le Bourg",
+    "city": "Saint-Avit-Sénieur",
+    "postal_code": "24440",
+    "experience": "Assez confortable",
+    "tel": "+33 5 53 57 89 15",
+    "web_link": "http://www.latabledeleo.fr"
+  },
+  {
+    "name": "Auberge de Combes",
+    "street": "Le bourg",
+    "city": "Combes",
+    "postal_code": "34240",
+    "experience": "Assez confortable",
+    "tel": "+33 4 67 95 66 55",
+    "web_link": "http://www.aubergedecombes.com"
+  },
+  {
+    "name": "Le Tilleul de Sully",
+    "street": "Le bourg",
+    "city": "Montgibaud",
+    "postal_code": "19210",
+    "experience": "Assez confortable",
+    "tel": "+33 5 55 98 01 96",
+    "web_link": "https://www.instagram.com/explore/tags/yesmichelinguide/"
+  },
+  {
+    "name": "Art'zain",
+    "street": "le bourg",
+    "city": "Irissarry",
+    "postal_code": "64780",
+    "experience": "Assez confortable",
+    "tel": "+33 5 59 37 23 83",
+    "web_link": "http://www.restaurant-art-zain.fr"
+  },
+  {
+    "name": "Lou Pinatou",
+    "street": "Le Bourg",
+    "city": "Solignac-sous-Roche",
+    "postal_code": "43130",
+    "experience": "Assez confortable",
+    "tel": "+33 4 71 65 21 54",
+    "web_link": "http://www.auberge-loupinatou.fr"
+  },
+  {
+    "name": "L'Auberge des Montagnes",
+    "street": "Le Bourg",
+    "city": "Pailherols",
+    "postal_code": "15800",
+    "experience": "Confortable",
+    "tel": "+33 4 71 47 57 01",
+    "web_link": "http://www.auberge-des-montagnes.com"
+  },
+  {
+    "name": "Le Clos Perché",
+    "street": "Le bourg",
+    "city": "Montarcher",
+    "postal_code": "42380",
+    "experience": "Confortable",
+    "tel": "+33 4 77 50 00 08",
+    "web_link": "http://www.leclosperche.fr"
+  },
+  {
+    "name": "La Belle Étoile",
+    "street": "Le Bourg",
+    "city": "La Roque-Gageac",
+    "postal_code": "24250",
+    "experience": "Confortable",
+    "tel": "+33 5 53 29 51 44",
+    "web_link": "http://www.belleetoile.fr"
+  },
+  {
+    "name": "Le Grand St-Benoît",
+    "street": "7 place St-André",
+    "city": "Saint-Benoît-sur-Loire",
+    "postal_code": "45730",
+    "experience": "Confortable",
+    "tel": "+33 2 38 35 11 92",
+    "web_link": "http://www.restaurant-grand-saint-benoit.com"
+  },
+  {
+    "name": "La Bonne Auberge",
+    "street": "63 Route Nationale",
+    "city": "Dury",
+    "postal_code": "80480",
+    "experience": "Confortable",
+    "tel": "+33 3 22 95 03 33",
+    "web_link": "http://www.labonneauberge80.com"
+  },
+  {
+    "name": "Côté Saveurs",
+    "street": "Place Louis Fontanges",
+    "city": "Villefranche-de-Rouergue",
+    "postal_code": "12200",
+    "experience": "Confortable",
+    "tel": "+33 5 65 65 83 64",
+    "web_link": "http://www.cote-saveurs.fr"
+  },
+  {
+    "name": "Le Dauphin",
+    "street": "29 rue Gemare",
+    "city": "Caen",
+    "postal_code": "14000",
+    "experience": "Très confortable",
+    "tel": "+33 2 31 86 22 26",
+    "web_link": "tel:+33 2 31 86 22 26"
+  },
+  {
+    "name": "La Ruche",
+    "street": "13 quai du Docteur-Jules-Bouvat",
+    "city": "Saint-Péray",
+    "postal_code": "07130",
+    "experience": "Assez confortable",
+    "tel": "+33 9 82 40 44 38",
+    "web_link": "http://www.laruche-saintperay.com"
+  },
+  {
+    "name": "Auberge des Tilleuls",
+    "street": "8 place de l'Église",
+    "city": "Messigny-et-Vantoux",
+    "postal_code": "21380",
+    "experience": "Assez confortable",
+    "tel": "+33 3 80 35 45 22",
+    "web_link": "http://www.restaurant-tilleuls.fr"
+  },
+  {
+    "name": "L'Arôme",
+    "street": "9 rue des 3 Rois",
+    "city": "Marseille",
+    "postal_code": "13006",
+    "experience": "Assez confortable",
+    "tel": "+33 4 91 42 88 80",
+    "web_link": "https://www.instagram.com/explore/tags/yesmichelinguide/"
+  },
+  {
+    "name": "Ttotta",
+    "street": "Espace Ibarrondoan",
+    "city": "Saint-Pée-sur-Nivelle",
+    "postal_code": "64310",
+    "experience": "Assez confortable",
+    "tel": "+33 5 59 47 03 55",
+    "web_link": "http://www.ttotta.fr"
+  },
+  {
+    "name": "La Fleur de Sel",
+    "street": "15 route du Portelin",
+    "city": "Cevins",
+    "postal_code": "73730",
+    "experience": "Confortable",
+    "tel": "+33 4 79 37 49 98",
+    "web_link": "tel:+33 4 79 37 49 98"
+  },
+  {
+    "name": "La Fleur de Sel",
+    "street": "17 rue Haute",
+    "city": "Honfleur",
+    "postal_code": "14600",
+    "experience": "Confortable",
+    "tel": "+33 2 31 89 01 92",
+    "web_link": "http://www.lafleurdesel-honfleur.com"
+  },
+  {
+    "name": "Le Petit St-Thomas",
+    "street": "25 rue de Lattre-de-Tassigny",
+    "city": "La Garnache",
+    "postal_code": "85710",
+    "experience": "Confortable",
+    "tel": "+33 2 51 49 05 99",
+    "web_link": "http://www.restaurant-petit-st-thomas.com"
+  },
+  {
+    "name": "France et Fuchsias",
+    "street": "20 rue du Maréchal-Foch",
+    "city": "Saint-Vaast-la-Hougue",
+    "postal_code": "50550",
+    "experience": "Confortable",
+    "tel": "+33 2 33 54 40 41",
+    "web_link": "http://www.france-fuchsias.com"
+  },
+  {
+    "name": "La Griotte",
+    "street": "3 rue des Cerisiers",
+    "city": "Saules",
+    "postal_code": "25580",
+    "experience": "Assez confortable. Nos établissements de charme.",
+    "tel": "+33 3 81 57 17 71",
+    "web_link": "http://www.lagriotte.fr"
+  },
+  {
+    "name": "La Table d'Antan",
+    "street": "38 avenue de la Grande-Charmille-du-Parc",
+    "city": "Sainte-Geneviève-des-Bois",
+    "postal_code": "91700",
+    "experience": "Confortable",
+    "tel": "+33 1 60 15 71 53",
+    "web_link": "http://www.latabledantan.fr"
+  },
+  {
+    "name": "La Maison Carrier",
+    "street": "44 route du Bouchet",
+    "city": "Chamonix-Mont-Blanc",
+    "postal_code": "74400",
+    "experience": "Confortable. Nos établissements de charme.",
+    "tel": "+33 4 50 53 00 03",
+    "web_link": "http://www.hameaualbert.fr"
+  },
+  {
+    "name": "Maison Gambert",
+    "street": "2 rue de la Petite-Pirelle",
+    "city": "Tain-l'Hermitage",
+    "postal_code": "26600",
+    "experience": "Assez confortable",
+    "tel": "+33 4 75 09 19 85",
+    "web_link": "tel:+33 4 75 09 19 85"
+  },
+  {
+    "name": "Le Tire Bouchon",
+    "street": "45 rue Jules-le-Grand",
+    "city": "Lorient",
+    "postal_code": "56100",
+    "experience": "Confortable",
+    "tel": "+33 2 97 84 71 92",
+    "web_link": "http://www.restaurantalorient.com"
+  },
+  {
+    "name": "Le Jardin",
+    "street": "16 rue de la Redoute",
+    "city": "Haguenau",
+    "postal_code": "67500",
+    "experience": "Très confortable",
+    "tel": "+33 3 88 93 29 39",
+    "web_link": "http://www.lejardinhaguenau.fr"
+  },
+  {
+    "name": "La Part des Anges",
+    "street": "7 rue d'Empare",
+    "city": "Castres",
+    "postal_code": "81100",
+    "experience": "Assez confortable",
+    "tel": "+33 5 63 51 65 25",
+    "web_link": "https://www.instagram.com/explore/tags/yesmichelinguide/"
+  },
+  {
+    "name": "Le Bellevue",
+    "street": "1 avenue des Pyrénées",
+    "city": "Lacroix-Falgarde",
+    "postal_code": "31120",
+    "experience": "Confortable",
+    "tel": "+33 5 61 76 94 97",
+    "web_link": "http://www.restaurant-lebellevue.com"
+  },
+  {
+    "name": "La Taverne Alsacienne",
+    "street": "99 rue de la République",
+    "city": "Ingersheim",
+    "postal_code": "68040",
+    "experience": "Confortable",
+    "tel": "+33 3 89 27 08 41",
+    "web_link": "tel:+33 3 89 27 08 41"
+  },
+  {
+    "name": "La Table d'Aimé",
+    "street": "4 Rue Francisco Ferrer",
+    "city": "Rivesaltes",
+    "postal_code": "66600",
+    "experience": "Assez confortable. Nos établissements de charme.",
+    "tel": "+33 4 68 34 35 77",
+    "web_link": "http://www.latabledaime.com"
+  },
+  {
+    "name": "Histoire Ancienne",
+    "street": "20 rue Royale",
+    "city": "Calais",
+    "postal_code": "62100",
+    "experience": "Assez confortable",
+    "tel": "+33 3 21 34 11 20",
+    "web_link": "http://www.histoire-ancienne.com"
+  },
+  {
+    "name": "Au Fil des Saisons",
+    "street": "3 rue de la Libération",
+    "city": "Étupes",
+    "postal_code": "25460",
+    "experience": "Assez confortable",
+    "tel": "+33 3 81 94 17 12",
+    "web_link": "http://www.aufildessaisons.eu"
+  },
+  {
+    "name": "Au Colombier",
+    "street": "126 allée Colombier",
+    "city": "Anse",
+    "postal_code": "69480",
+    "experience": "Assez confortable",
+    "tel": "+33 4 74 67 04 68",
+    "web_link": "http://www.aucolombier.com"
+  },
+  {
+    "name": "Le St-Georges",
+    "street": "4 boulevard Maréchal-Foch",
+    "city": "Palavas-les-Flots",
+    "postal_code": "34250",
+    "experience": "Confortable",
+    "tel": "+33 4 67 68 31 38",
+    "web_link": "http://www.restaurant-st-georges.fr"
+  },
+  {
+    "name": "Pomze",
+    "street": "109 boulevard Haussmann",
+    "city": "Paris",
+    "postal_code": "75008",
+    "experience": "Confortable",
+    "tel": "+33 1 42 65 65 83",
+    "web_link": "http://www.pomze.com"
+  },
+  {
+    "name": "Le Bastion",
+    "street": "50 boulevard de la Promenade",
+    "city": "Lagrasse",
+    "postal_code": "11220",
+    "experience": "Assez confortable",
+    "tel": "+33 4 68 12 02 51",
+    "web_link": "http://www.restaurant-bastion-lagrasse.fr"
+  },
+  {
+    "name": "Le Chalet",
+    "street": "4 avenue Durandeau",
+    "city": "Ax-les-Thermes",
+    "postal_code": "09110",
+    "experience": "Confortable",
+    "tel": "+33 5 61 64 24 31",
+    "web_link": "tel:+33 5 61 64 24 31"
+  },
+  {
+    "name": "Le Lancelot",
+    "street": "12 rue des Déportés",
+    "city": "Chilleurs-aux-Bois",
+    "postal_code": "45170",
+    "experience": "Confortable",
+    "tel": "+33 2 38 32 91 15",
+    "web_link": "http://www.restaurantlelancelot.com"
+  },
+  {
+    "name": "Le Montcenis",
+    "street": "place du Champ-de-Foire",
+    "city": "Montcenis",
+    "postal_code": "71710",
+    "experience": "Confortable",
+    "tel": "+33 3 85 55 44 36",
+    "web_link": "https://www.instagram.com/explore/tags/yesmichelinguide/"
+  },
+  {
+    "name": "Auberge de Ti-Coz",
+    "street": "4 Hent-Koz",
+    "city": "Ty-Sanquer",
+    "postal_code": "29000",
+    "experience": "Confortable. Nos établissements de charme.",
+    "tel": "+33 2 98 94 50 02",
+    "web_link": "http://www.restaurantticoz.com"
+  },
+  {
+    "name": "La Table",
+    "street": "1 traverse de Jas",
+    "city": "Les Ribas",
+    "postal_code": "Tourtour",
+    "experience": "Assez confortable. Nos établissements de charme.",
+    "tel": "+33 4 94 70 55 95",
+    "web_link": "http://www.latable.fr"
+  },
+  {
+    "name": "Au Chapeau Rouge",
+    "street": "49 place du Général-de-Gaulle",
+    "city": "Chinon",
+    "postal_code": "37500",
+    "experience": "Confortable",
+    "tel": "+33 2 47 98 08 08",
+    "web_link": "http://www.auchapeaurouge.fr"
+  },
+  {
+    "name": "La Maison",
+    "street": "1 rue du 14-Juillet",
+    "city": "Cognac",
+    "postal_code": "16100",
+    "experience": "Confortable",
+    "tel": "+33 5 45 35 21 77",
+    "web_link": "http://www.restaurant-lamaison-cognac.fr"
+  },
+  {
+    "name": "Le Manoir du Sphinx",
+    "street": "67 chemin de la Messe",
+    "city": "Perros-Guirec",
+    "postal_code": "22700",
+    "experience": "Confortable. Nos établissements de charme.",
+    "tel": "+33 2 96 23 25 42",
+    "web_link": "http://www.lemanoirdusphinx.bzh"
+  },
+  {
+    "name": "Le Réciproque",
+    "street": "14 rue Ferdinand-Flocon",
+    "city": "Paris",
+    "postal_code": "75018",
+    "experience": "Assez confortable",
+    "tel": "+33 9 86 37 80 77",
+    "web_link": "tel:+33 9 86 37 80 77"
+  },
+  {
+    "name": "Ar Maen Hir",
+    "street": "15 bis rue du Prieuré",
+    "city": "Locronan",
+    "postal_code": "29180",
+    "experience": "Assez confortable",
+    "tel": "+33 2 56 10 18 37",
+    "web_link": "https://www.instagram.com/explore/tags/yesmichelinguide/"
+  },
+  {
+    "name": "La Vieille Forge",
+    "street": "1 rue des Écoles",
+    "city": "Kaysersberg",
+    "postal_code": "68240",
+    "experience": "Confortable",
+    "tel": "+33 3 89 47 17 51",
+    "web_link": "http://www.vieilleforge-kb.com"
+  },
+  {
+    "name": "La Balade des Saveurs",
+    "street": "3 quai Jean-Jaurès",
+    "city": "L'Isle-sur-la-Sorgue",
+    "postal_code": "84800",
+    "experience": "Confortable",
+    "tel": "+33 4 90 95 27 85",
+    "web_link": "http://www.balade-des-saveurs.com"
+  },
+  {
+    "name": "Le Saint-Jacques",
+    "street": "Place du Monument",
+    "city": "Thorigné-sur-Dué",
+    "postal_code": "72160",
+    "experience": "Confortable",
+    "tel": "+33 2 43 89 95 50",
+    "web_link": "http://www.hotel-sarthe.fr"
+  },
+  {
+    "name": "Auberge des Deux Magots",
+    "street": "1 place du Bouffay",
+    "city": "La Roche-Bernard",
+    "postal_code": "56130",
+    "experience": "Confortable",
+    "tel": "+33 2 99 90 60 75",
+    "web_link": "tel:+33 2 99 90 60 75"
+  },
+  {
+    "name": "La Merenda",
+    "street": "4 rue Raoul-Bosio",
+    "city": "Nice",
+    "postal_code": "06000",
+    "experience": "Assez confortable",
+    "tel": "www.lamerenda.net",
+    "web_link": "https://www.instagram.com/explore/tags/yesmichelinguide/"
+  },
+  {
+    "name": "À la 12",
+    "street": "6 place de la République",
+    "city": "Delme",
+    "postal_code": "57590",
+    "experience": "Confortable",
+    "tel": "+33 3 87 01 30 18",
+    "web_link": "http://www.ala12.fr"
+  },
+  {
+    "name": "La Colombe",
+    "street": "663 route de Toulon",
+    "city": "Hyères",
+    "postal_code": "83400",
+    "experience": "Confortable",
+    "tel": "+33 4 94 35 35 16",
+    "web_link": "http://www.restaurantlacolombe.com"
+  },
+  {
+    "name": "Le Vauban",
+    "street": "22 quai Caligny",
+    "city": "Cherbourg-en-Cotentin",
+    "postal_code": "50100",
+    "experience": "Confortable",
+    "tel": "+33 2 33 43 10 11",
+    "web_link": "http://www.levauban-cherbourg.fr"
+  },
+  {
+    "name": "La Maison de Marie",
+    "street": "24 rue Gabriel-Vicaire",
+    "city": "Perros-Guirec",
+    "postal_code": "22700",
+    "experience": "Confortable",
+    "tel": "+33 2 96 49 05 96",
+    "web_link": "http://www.lamaisondemarie-laclarte.bzh"
+  },
+  {
+    "name": "Le Boudes La Vigne",
+    "street": "place de la Mairie",
+    "city": "Boudes",
+    "postal_code": "63340",
+    "experience": "Confortable",
+    "tel": "+33 4 73 96 55 66",
+    "web_link": "http://www.leboudeslavigne.franceserv.com"
+  },
+  {
+    "name": "Au Raisin d'Or",
+    "street": "1 rue de l'Église",
+    "city": "Zimmerbach",
+    "postal_code": "68230",
+    "experience": "Assez confortable",
+    "tel": "+33 3 89 71 05 69",
+    "web_link": "http://www.raisindor.fr"
+  },
+  {
+    "name": "Auberge des Chenêts",
+    "street": "10 route Nationale 6",
+    "city": "Valloux",
+    "postal_code": "89200",
+    "experience": "Confortable. Nos établissements de charme.",
+    "tel": "+33 3 86 34 23 34",
+    "web_link": "https://www.instagram.com/explore/tags/yesmichelinguide/"
+  },
+  {
+    "name": "Coteaux et Fourchettes",
+    "street": "Route de Violès",
+    "city": "Cairanne",
+    "postal_code": "84290",
+    "experience": "Confortable",
+    "tel": "+33 4 90 66 35 99",
+    "web_link": "http://www.coteauxetfourchettes.com"
+  },
+  {
+    "name": "Julien",
+    "street": "Route de Strasbourg",
+    "city": "Fouday",
+    "postal_code": "67130",
+    "experience": "Confortable",
+    "tel": "+33 3 88 97 30 09",
+    "web_link": "http://www.hoteljulien.com"
+  },
+  {
+    "name": "Les Capucins",
+    "street": "20 faubourg de Montbéliard",
+    "city": "Belfort",
+    "postal_code": "90000",
+    "experience": "Confortable",
+    "tel": "+33 3 84 28 04 60",
+    "web_link": "tel:+33 3 84 28 04 60"
+  },
+  {
+    "name": "Auberge de la Clue",
+    "street": "place de l'Église",
+    "city": "Plaisians",
+    "postal_code": "26170",
+    "experience": "Assez confortable",
+    "tel": "+33 4 75 28 01 17",
+    "web_link": "https://www.instagram.com/explore/tags/yesmichelinguide/"
+  },
+  {
+    "name": "Comptoir des Voyageurs",
+    "street": "Place de l'Église",
+    "city": "Locronan",
+    "postal_code": "29180",
+    "experience": "Assez confortable",
+    "tel": "+33 2 98 91 70 74",
+    "web_link": "http://www.comptoir-des-voyageurs.fr"
+  },
+  {
+    "name": "Manoir de la Pommeraie",
+    "street": "L'Auvère",
+    "city": "Vire",
+    "postal_code": "14500",
+    "experience": "Confortable",
+    "tel": "+33 2 31 68 07 71",
+    "web_link": "http://www.manoirdelapommeraie.com"
+  },
+  {
+    "name": "Le Rabelais",
+    "street": "8 rue Auguste-Fabre",
+    "city": "Saint-Chamas",
+    "postal_code": "13250",
+    "experience": "Confortable",
+    "tel": "+33 4 90 50 84 40",
+    "web_link": "http://www.restaurant-le-rabelais.com"
+  },
+  {
+    "name": "L'Arum",
+    "street": "21 avenue Joseph-Clotis",
+    "city": "Hyères",
+    "postal_code": "83400",
+    "experience": "Assez confortable",
+    "tel": "+33 4 83 99 42 04",
+    "web_link": "https://www.instagram.com/explore/tags/yesmichelinguide/"
+  },
+  {
+    "name": "Côté Bistro",
+    "street": "25 rue de Chambord",
+    "city": "Montlivault",
+    "postal_code": "41350",
+    "experience": "Assez confortable",
+    "tel": "+33 2 54 20 62 30",
+    "web_link": "http://www.lamaisondacote.fr"
+  },
+  {
+    "name": "L'Épicurien",
+    "street": "42 place Jean-Jaurès",
+    "city": "Albi",
+    "postal_code": "81000",
+    "experience": "Confortable",
+    "tel": "+33 5 63 53 10 70",
+    "web_link": "http://www.restaurantlepicurien.com"
+  },
+  {
+    "name": "Au Cheval Blanc",
+    "street": "11 rue Principale",
+    "city": "Niedersteinbach",
+    "postal_code": "67510",
+    "experience": "Confortable",
+    "tel": "+33 3 88 09 55 31",
+    "web_link": "http://www.hotel-cheval-blanc.fr"
+  },
+  {
+    "name": "Cheval Blanc",
+    "street": "1 rue de Bisel",
+    "city": "Feldbach",
+    "postal_code": "68640",
+    "experience": "Confortable",
+    "tel": "+33 3 89 25 81 86",
+    "web_link": "http://www.cheval-blanc-feldbach.fr"
+  },
+  {
+    "name": "Chez Michel",
+    "street": "10 rue de Belzunce",
+    "city": "Paris",
+    "postal_code": "75010",
+    "experience": "Assez confortable",
+    "tel": "+33 1 44 53 06 20",
+    "web_link": "http://www.restaurantchezmichel.fr"
+  },
+  {
+    "name": "L'Atelier",
+    "street": "2 rue Voltaire",
+    "city": "Périgueux",
+    "postal_code": "24000",
+    "experience": "Assez confortable",
+    "tel": "+33 5 53 04 56 71",
+    "web_link": "http://www.restaurant-perigueux-atelier.com"
+  },
+  {
+    "name": "Auberge de l'Île",
+    "street": "3 place Bouchard",
+    "city": "L'Île-Bouchard",
+    "postal_code": "37220",
+    "experience": "Confortable",
+    "tel": "+33 2 47 58 51 07",
+    "web_link": "http://www.aubergedelile.fr"
+  },
+  {
+    "name": "Au Bon Accueil",
+    "street": "14 rue de Monttessuy",
+    "city": "Paris",
+    "postal_code": "75007",
+    "experience": "Confortable",
+    "tel": "+33 1 47 05 46 11",
+    "web_link": "http://www.aubonaccueilparis.com"
+  },
+  {
+    "name": "Le Bon Accueil",
+    "street": "1 rue de Laval",
+    "city": "Richardménil",
+    "postal_code": "54630",
+    "experience": "Confortable",
+    "tel": "+33 3 83 25 62 10",
+    "web_link": "http://www.aubonaccueil-restaurant.com"
+  },
+  {
+    "name": "Au Bon Accueil",
+    "street": "23 place St-Michel",
+    "city": "Juvigny-sous-Andaine",
+    "postal_code": "61140",
+    "experience": "Confortable",
+    "tel": "+33 2 33 38 10 04",
+    "web_link": "tel:+33 2 33 38 10 04"
+  },
+  {
+    "name": "Au Vieux Moulin",
+    "street": "7 rue du Vieux-Moulin",
+    "city": "Graufthal",
+    "postal_code": "67320",
+    "experience": "Confortable",
+    "tel": "+33 3 88 70 17 28",
+    "web_link": "http://www.auvieuxmoulin.eu"
+  },
+  {
+    "name": "La Forêt",
+    "street": "22 rue de Verdun",
+    "city": "Senonches",
+    "postal_code": "28250",
+    "experience": "Confortable",
+    "tel": "+33 2 37 37 78 50",
+    "web_link": "http://www.hoteldelaforet-senonches.com"
+  },
+  {
+    "name": "L'Arche de Meslay",
+    "street": "14 rue des Ailes",
+    "city": "Parçay-Meslay",
+    "postal_code": "37210",
+    "experience": "Confortable",
+    "tel": "+33 2 47 29 00 07",
+    "web_link": "http://www.larchedemeslay.fr"
+  },
+  {
+    "name": "La Clé des Champs",
+    "street": "place des Frères-Caudron",
+    "city": "Favières",
+    "postal_code": "80120",
+    "experience": "Confortable",
+    "tel": "+33 3 22 27 88 00",
+    "web_link": "http://www.restaurant-lacledeschamps.com"
+  },
+  {
+    "name": "O'Plaisir des Sens",
+    "street": "Sous la Grande Vigne",
+    "city": "La Roque-Gageac",
+    "postal_code": "24250",
+    "experience": "Confortable",
+    "tel": "+33 5 53 29 58 53",
+    "web_link": "http://www.o-plaisirdessens.com"
+  },
+  {
+    "name": "Les Épices Curiens",
+    "street": "3b place de la Gare",
+    "city": "Écouviez",
+    "postal_code": "55600",
+    "experience": "Assez confortable",
+    "tel": "+33 3 29 86 84 58",
+    "web_link": "http://www.lesepicescuriens.com"
+  },
+  {
+    "name": "Le Jardin d'Alice",
+    "street": "1098 route de Lillers",
+    "city": "Busnes",
+    "postal_code": "62350",
+    "experience": "Confortable. Nos établissements de charme.",
+    "tel": "+33 3 21 68 88 88",
+    "web_link": "tel:+33 3 21 68 88 88"
+  },
+  {
+    "name": "Voyages des sens",
+    "street": "33 rue Principale",
+    "city": "Treffort",
+    "postal_code": "01370",
+    "experience": "Confortable",
+    "tel": "+33 4 74 51 39 94",
+    "web_link": "http://www.voyagesdessens.com"
+  },
+  {
+    "name": "Winstub du Chambard",
+    "street": "9-13 rue du Général-de-Gaulle",
+    "city": "Kaysersberg",
+    "postal_code": "68240",
+    "experience": "Assez confortable. Nos établissements de charme.",
+    "tel": "+33 3 89 47 10 17",
+    "web_link": "tel:+33 3 89 47 10 17"
+  },
+  {
+    "name": "Auberge Pyrénées Cévennes",
+    "street": "106 rue de la Folie-Méricourt",
+    "city": "Paris",
+    "postal_code": "75011",
+    "experience": "Assez confortable",
+    "tel": "+33 1 43 57 33 78",
+    "web_link": "tel:+33 1 43 57 33 78"
+  },
+  {
+    "name": "Bistrot des Anges",
+    "street": "rue de l'Ouest",
+    "city": "Le Cannet",
+    "postal_code": "06110",
+    "experience": "Assez confortable",
+    "tel": "+33 4 92 18 18 28",
+    "web_link": "tel:+33 4 92 18 18 28"
+  },
+  {
+    "name": "Hôtel de France",
+    "street": "1 rue Marx-Dormoy",
+    "city": "Montmarault",
+    "postal_code": "03390",
+    "experience": "Confortable",
+    "tel": "+33 4 70 07 60 26",
+    "web_link": "tel:+33 4 70 07 60 26"
+  },
+  {
+    "name": "Auberge de la Roche",
+    "street": "10 Route Nationale 23",
+    "city": "Saint-Jean-de-Linières",
+    "postal_code": "49070",
+    "experience": "Confortable",
+    "tel": "+33 2 41 39 72 21",
+    "web_link": "http://www.auberge-de-la-roche.com"
+  },
+  {
+    "name": "L'Artimon",
+    "street": "17 rue Jean-du-Plessis",
+    "city": "La Bernerie-en-Retz",
+    "postal_code": "44760",
+    "experience": "Assez confortable",
+    "tel": "+33 2 51 74 61 60",
+    "web_link": "https://www.instagram.com/explore/tags/yesmichelinguide/"
+  },
+  {
+    "name": "L'Ô à la Bouche",
+    "street": "56 Allées Fénelon",
+    "city": "Cahors",
+    "postal_code": "46000",
+    "experience": "Confortable",
+    "tel": "+33 5 65 35 65 69",
+    "web_link": "http://www.loalabouche-restaurant.com"
+  },
+  {
+    "name": "Le Colvert",
+    "street": "8 rue d'en Boyer",
+    "city": "Saint-Lieux-lès-Lavaur",
+    "postal_code": "81500",
+    "experience": "Confortable",
+    "tel": "+33 5 63 41 32 47",
+    "web_link": "http://www.restaurantlecolvert.com"
+  },
+  {
+    "name": "Auberge de la Rivière",
+    "street": "rue du Port-de-la-Fouarne",
+    "city": "Velluire",
+    "postal_code": "85770",
+    "experience": "Très confortable",
+    "tel": "+33 2 51 52 32 15",
+    "web_link": "http://www.hotel-riviere-vendee.com"
+  },
+  {
+    "name": "Auberge des Granges",
+    "street": "Au village",
+    "city": "Bessas",
+    "postal_code": "07150",
+    "experience": "Assez confortable",
+    "tel": "+33 4 75 38 02 01",
+    "web_link": "http://www.aubergedesgranges.com"
+  },
+  {
+    "name": "Auberge du Moulin",
+    "street": "36 rue des Moulins-du-Tot",
+    "city": "Clères",
+    "postal_code": "76690",
+    "experience": "Confortable",
+    "tel": "+33 2 35 33 62 76",
+    "web_link": "http://www.aubergedumoulin.org"
+  },
+  {
+    "name": "L'Escargot",
+    "street": "30 rue du Maréchal-Leclerc",
+    "city": "Saumur",
+    "postal_code": "49400",
+    "experience": "Assez confortable",
+    "tel": "+33 2 41 51 20 88",
+    "web_link": "https://www.instagram.com/explore/tags/yesmichelinguide/"
+  },
+  {
+    "name": "Vidal",
+    "street": "Place du Marché",
+    "city": "Saint-Julien-Chapteuil",
+    "postal_code": "43260",
+    "experience": "Très confortable",
+    "tel": "+33 4 71 08 70 50",
+    "web_link": "http://www.restaurant-vidal.com"
+  }
+]
