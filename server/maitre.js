@@ -58,8 +58,11 @@ const parseRestaurant= data => {
   const city=infos[15].trim();
 
 
-  var tel_mobile= infos[28].trim().replace(/,/g, '');
-  var tel_square= infos[29].trim().replace(/,/g, '');
+  var tel_mobile= infos[28].trim().replace(/,/g, '').split(" ").join("");
+  tel_mobile="+33"+tel_mobile.substring(1,10);
+  var tel_square= infos[29].trim().replace(/,/g, '').split(" ").join("");
+  tel_square="+33"+tel_mobile.substring(1,10)
+
 
   // const tel= $('.restaurant-details__heading > ul > li:nth-child(1)').text();
   return {name,street,city,postal_code,tel_mobile,tel_square};
