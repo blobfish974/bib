@@ -189,18 +189,93 @@ function compareJSON(){
   	let maitresRestaurateursRestaurants= JSON.parse(rawdata);
   	rawdata = fs.readFileSync('./files/BibRestaurants.json');
   	let  bibRestaurants= JSON.parse(rawdata);
+  	// var bibRestaurants = JSON.parse(fs.readFileSync('./files/BibRestaurants.json', 'utf8'));
 
-  	console.log(maitresRestaurateursRestaurants[0].tel);
+  	// console.log(bibRestaurants[0].tel.split(" ").join(""));
 
 
-  	let restaurant=[];
+
+
+
+
+  	var i,j;
+	// for (i = 0; i < 400; i++) {
+	// 	if (typeof bibRestaurants[i].tel == "undefined"){
+	// 		console.log(bibRestaurants[i]);
+	// 		console.log(bibRestaurants[i].length);
+	// 	}
+	// }
+	// console.log(bibRestaurants[0]);
+
+
+
+
+
+  	let restaurants=[];
   	for (i = 0; i < maitresRestaurateursRestaurants.length; i++) {
 		for (j = 0; j < bibRestaurants.length; j++) {
-			if(maitresRestaurateursRestaurants ) // ADD CONDTIONS
-  			restaurant.push(maitresRestaurateursRestaurants[i].concat(bibRestaurants[j]));	
-		}
+	// for (i = 0; i < 400; i++) {
+	// 	for (j = 0; j < 400; j++) {		
+			if (typeof bibRestaurants[j].tel != "undefined"){
+				if((bibRestaurants[j].tel.split(" ").join("")==maitresRestaurateursRestaurants[i].tel_mobile) || (bibRestaurants[j].tel.split(" ").join("")==maitresRestaurateursRestaurants[i].tel_square)
+				|| (bibRestaurants[j].name.localeCompare(maitresRestaurateursRestaurants[i].name, 'fr', {sensitivity: 'base'})==0) 
+				|| (bibRestaurants[j].street.localeCompare(maitresRestaurateursRestaurants[i].street, 'fr', {sensitivity: 'base'})==0)) 
+				{
+					
+					// restaurants.push(maitresRestaurateursRestaurants[i].concat(bibRestaurants[j]));
+					var ok=true;
+					// var rest=Object.assign(maitresRestaurateursRestaurants[i],bibRestaurants[j]);
+					var name=bibRestaurants[j].name;
+					var street=bibRestaurants[j].stret;
+					var tel_mobile=maitresRestaurateursRestaurants[i].tel_mobile;
+				// 	"street": "70 route de Satillieu",
+    // "city": "Vaudevant",
+    // "postal_code": "07410",
+    // "experience": "Assez confortable",
+    // "tel": "+33 4 75 06 08 99",
+    // "web_link": "http://www.restaurant-la-recre.com"
 
+
+					var rest={name,street,tel_mobile};
+
+
+
+					// var rest=bibRestaurants[j];
+					restaurants.forEach(element => 
+					{
+						if(element==rest)
+							ok=false
+					})
+					if(ok){
+						console.log("yes");
+						restaurants.push(rest);	
+					}	
+					
+				}
+
+			}
+			else {
+				console.log("fuck");
+			}
+
+
+
+
+		}
+			
+  			
 	}
+
+	
+	// console.log(restaurants);
+	console.log(restaurants.length);
+
+	// export in JSON
+	fs.writeFile('./files/MaitresBibRestaurants.json', JSON.stringify(restaurants,null,2), (err) => {
+	    if (err) throw err;
+	    console.log('Data written to file');
+	});
+
 
 //   	const objMap={};
   
