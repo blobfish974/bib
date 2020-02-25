@@ -1,8 +1,26 @@
 .global {
   text-align: left;
-    padding:16px 111px;
+  padding:16px 111px;
+}
+.title{
+  text-align: center;
+
+}
+table {
+
+  border-collapse: collapse;
+}
+th {
+
+    height: 50px;
+    text-align: left;
+    padding: 15px;
 }
 
+td {
+
+    padding: 15px;
+}
 
 .App {
   text-align: center;
@@ -41,11 +59,6 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-.PostList {
-  margin-left: 20px;
-  text-align: left;
 }
 
 
