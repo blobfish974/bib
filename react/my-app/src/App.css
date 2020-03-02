@@ -17,9 +17,14 @@ th {
     padding: 15px;
 }
 
-td {
 
-    padding: 15px;
+
+.sort_button{
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  padding: 0;
+  border: none;
+  background: none;
 }
 
 .App {

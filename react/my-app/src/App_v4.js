@@ -27,42 +27,14 @@ class App extends React.Component {
   constructor(props){
     super(props)
     this.state={
-      datas:datas
-      ,
+      datas:datas,
       direction: {
         postal_code: 'asc',
-        name: 'asc',
       }
     }
     this.sortBy=this.sortBy.bind(this)
-    this.sortByString=this.sortByString.bind(this)
   }
 
-
-  sortByString(key){
-    this.setState({
-        datas: datas.sort( (a,b)=> 
-          // console.log(a.localCompare(b))
-          // var test=parseInt(b[key])
-          // console.log(test)
-          // console.log(typeof test)
-
-
-          this.state.direction[key] === 'asc'
-            ?  ( ((a[key])<(b[key])) ? (-1) : (1) )
-            :  ( ((b[key])<(a[key])) ? (-1) : (1) )
-          
-
-        ),
-        direction : {
-          [key]: this.state.direction[key] === 'asc'
-            ? 'desc'
-            : 'asc'
-        }
-    })
-    // console.log(key);
-
-  }
 
   sortBy(key){
     this.setState({
@@ -71,8 +43,6 @@ class App extends React.Component {
           // var test=parseInt(b[key])
           // console.log(test)
           // console.log(typeof test)
-
-
           this.state.direction[key] === 'asc'
             ?  (parseFloat(a[key])-parseFloat(b[key]))
             :  (parseFloat(b[key])-parseFloat(a[key]))
@@ -85,7 +55,7 @@ class App extends React.Component {
             : 'asc'
         }
     })
-    // console.log(key);
+    console.log(key);
 
   }
 
@@ -96,7 +66,6 @@ class App extends React.Component {
       < RestaurantTable 
           datas={this.state.datas}
           sortBy={this.sortBy}
-          sortByString={this.sortByString}
        />
       </div>
     );

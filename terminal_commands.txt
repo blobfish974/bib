@@ -1,1 +1,4 @@
 node server/index.js
+
+Cd my-app
+Npm run start -> localhost 3000
