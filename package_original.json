@@ -10,8 +10,5 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
-  },
-  "scripts": {
-    "start": "cd react && cd my-app && npm run start"
   }
 }
